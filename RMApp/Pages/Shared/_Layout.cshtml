@@ -1,18 +1,528 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - RMApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/RMApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/jsuites.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/jexcel.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/kendo.common.min.css" />
+    <link rel="stylesheet" href="~/css/kendo.rtl.min.css" />
+    <link rel="stylesheet" href="~/css/kendo.silver.min.css" />
+    <link rel="stylesheet" href="~/css/kendo.mobile.all.min.css" />
+    <link rel="stylesheet" href="~/css/kendo.custom.css" />
+    <link rel="stylesheet" href="~/css/chosen.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap-multiselect.css">
+    <script type="text/javascript" src="~/js/jexcel.js"></script>
+    <script type="text/javascript" src="~/js/jsuites.js"></script>
+    <script type="text/javascript" src="~/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="~/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="~/js/2019.1.220.kendo.all.min.js"></script>
+    <script type="text/javascript" src="~/js/2018.2.516.kendo.all.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="~/js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/loadingoverlay.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/js/bootstrap-multiselect.js"></script>
+    <style>
+      .backgroundBlur {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        display: none;
+      }
+      .k-grid td {
+        padding: 0.1em 0.1em !important;
+        font-family: "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        cursor: pointer;
+      }
+      .mybox {
+        display: flex
+      }
+      #Daterangebox {
+        display: none;
+        top: 177px;
+        left: 91.5%;
+        position: sticky;
+        height: 15px;
+      }
+      .OkbuttonDate {
+        color: black !important;
+      }
+      #Daterange {
+        color: #00435e;
+        margin-top: 49px;
+        margin-bottom: 10px;
+        padding: -29px 9px;
+        font-size: 13px;
+        font-weight: normal;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 4px;
+        border-color: #a3d0e4;
+      }
+      #Daterange:hover {
+        color: #001117;
+      }
+      .ttesting {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        padding-bottom: 10px;
+        display: none;
+      }
+      .ms-rtestate-field p, {
+        white-space: nowrap;
+      }
+      #DeltaPlaceHolderMain {
+        font-family: "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+      }
+      .ms-rtestate-field p, p.ms-rteElement-P {
+        margin: 0px 0px 0px 0px !important;
+      }
+      .k-grid-header th.k-header {
+        padding: 0.2em 0.2em !important;
+      }
+      .k-i-filter {
+        padding-left: 17px !important;
+      }
+      .change-background {
+        background-color: #fdda0d;
+      }
+      .change-background2 {
+        background-color: #ff6e69;
+      }
+      .change-background3 {
+        background-color: none;
+      }
+      .critical {
+        color: red !important;
+      }
+      .green {
+        color: rgb(65, 189, 70) !important;
+      }
+      .k-datepicker {
+        /* width: 17% !important;*/
+      }
+      .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: "Glyphicons Halflings";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+      }
+      .thumbnail {
+        padding: 0px;
+      }
+      .panel {
+        position: relative;
+      }
+      .panel > .panel-heading:after, .panel > .panel-heading:before {
+                position: absolute;
+                top: 11px;
+                left: -16px;
+                right: 100%;
+                width: 0;
+                height: 0;
+                display: block;
+                content: " ";
+                border-color: transparent;
+                border-style: solid solid outset;
+                pointer-events: none;
+      }
+
+            .panel > .panel-heading:after {
+                border-width: 7px;
+                border-right-color: #f7f7f7;
+                margin-top: 1px;
+                margin-left: 2px;
+            }
+
+            .panel > .panel-heading:before {
+                border-right-color: #ddd;
+                border-width: 8px;
+            }
+
+        .panel {
+            margin-bottom: 0px !important;
+        }
+    </style>
+    <style>
+        /* The Modal (background) */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 2001; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        }
+
+        .modal-header {
+            /*background-color: rgb(216, 216, 216);*/
+            background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.45) 0px, rgba(255, 255, 255, 0) 100%);
+            background-position: 50% 50%;
+            background-color: #d9ecf5 !important;
+            color: #00435e !important;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #bbdceb;
+            width: 30%;
+            border-bottom-width: 0px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        /* Modal Content */
+        .modal-content {
+            background-color: #fff;
+            color: #00435e !important;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #bbdceb;
+            width: 30%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #00435e;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .close:hover,
+            .close:focus {
+                color: #000;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        .btnc {
+            background-color: #f3f3f4 !important;
+            color: #515967 !important;
+            border: 1px #f2f2f2 !important;
+        }
+
+        .btncH {
+            background-color: #f3f3f4 !important;
+            border: 1px #f3f3f4 !important;
+        }
+
+        .hideL {
+            font-weight: bold;
+        }
+
+
+        .NumcheckFY {
+            color: black !important;
+            background: rgb(247 247 150) !important;
+        }
+
+        .jexcel_content {
+            max-height: 236px !important;
+        }
+
+
+        .k-multiselect:after {
+            position: absolute;
+            top: 31%;
+            right: 25px;
+            font-size: 12px;
+        }
+
+        .k-state-focused, .k-grid-header th.k-state-focused {
+            box-shadow: none !important;
+        }
+
+        .k-multiselect-clearable .k-multiselect-wrap {
+            padding-right: 1em !important;
+        }
+
+        .k-multiselect-wrap li {
+            padding: 2px 8px;
+        }
+
+        .k-button {
+            color: #515967;
+            background-position: 50% 50%;
+            background-image: url(textures/highlight.png);
+            background-image: none,linear-gradient(to bottom,rgba(255,255,255,.2) 0,rgba(255,255,255,0) 100%);
+        }
+
+            .k-button.k-state-hover, .k-button:hover {
+                background-position: 50% 50%;
+                background-image: none,linear-gradient(to bottom,rgba(255,255,255,.2) 0,rgba(255,255,255,0) 100%);
+            }
+
+
+
+        .k-multiselect {
+            position: relative;
+        }
+
+            .k-multiselect:after {
+                content: "\25BC";
+                position: absolute;
+                top: 31% !important;
+                right: 20px;
+                font-size: 10px;
+            }
+
+            .k-multiselect.opened:after {
+                content: "\25C0";
+            }
+
+        .k-multiselect-wrap > .k-i-close {
+            right: calc(1em - 7px);
+            top: 31%;
+        }
+
+        .k-multiselect-wrap > .k-i-close {
+            font-size: 94%;
+            display: none;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .Sticky {
+            position: sticky;
+            top: -36px;
+            z-index: 1000;
+            background-color: white;
+        }
+
+        .k-grid-header {
+            position: sticky;
+            top: 75px;
+            padding-right: 0 !important;
+            z-index: 1000;
+            background-color: white;
+            outline: 1px solid;
+            outline-color: #a3d0e4;
+        }
+
+        .ttfont {
+            padding: 0.1em 0.1em !important;
+            font-family: "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        .dropdown-check-list {
+            display: inline-block;
+            position: absolute;
+            top: 46%
+        }
+
+        .k-i-comment {
+            margin-top: -9px;
+            margin-left: -1px;
+        }
+
+        .CIcolor {
+            color: #f09609;
+            background-color: #fdda08;
+            border-radius: 10%;
+            height: 12px;
+            display: block;
+            width: 14px;
+        }
+
+        .CIcolorEmpty {
+            color: #3fa379;
+            background-color: #3fc48d;
+            border-radius: 10%;
+            height: 12px;
+            display: block;
+            width: 14px;
+        }
+
+        .CIcolorFill {
+            color: #3fa379;
+            background-color: #bbdceb;
+            border-radius: 10%;
+            height: 12px;
+            display: block;
+            width: 14px;
+        }
+
+        .dropdown-check-list .sortingtypeListanchor {
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            padding: 5px 50px 5px 10px;
+        }
+
+            .dropdown-check-list .sortingtypeListanchor:after {
+                position: absolute;
+                /*content: "";*/
+                border-left: 2px solid black;
+                border-top: 2px solid black;
+                padding: 5px;
+                right: 10px;
+                top: 20%;
+                -moz-transform: rotate(-135deg);
+                -ms-transform: rotate(-135deg);
+                -o-transform: rotate(-135deg);
+                -webkit-transform: rotate(-135deg);
+                transform: rotate(-135deg);
+            }
+
+            .dropdown-check-list .sortingtypeListanchor:active:after {
+                right: 8px;
+                top: 21%;
+            }
+
+        .dropdown-check-list ul.sortingtypeListitems {
+            padding: 2px;
+            display: none;
+            margin: 0;
+            border: 1px solid #ccc;
+            border-top: 1px solid #cc;
+        }
+
+            .dropdown-check-list ul.sortingtypeListitems li {
+                list-style: none;
+                padding: 6px 6px 4px 4px;
+                cursor: pointer
+            }
+
+                .dropdown-check-list ul.sortingtypeListitems li:hover {
+                    background-color: #ddd; /*#dedee0;*/
+                    background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 0px, rgba(255, 255, 255, 0) 100%);
+                }
+
+        .dropdown-check-list.visible .sortingtypeListanchor {
+            color: #0094ff;
+        }
+
+        .dropdown-check-list.visible .sortingtypeListitems {
+            display: block;
+            position: absolute;
+            background: #f5f5f5;
+            font-size: 13px;
+            font-family: "Segoe UI", Segoe, Tahoma, Helvetica, Arial, sans-serif;
+            font-stretch: 100%;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            transform: translateY(0px);
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0 2px 2px 0 rgb(0 0 0 / 30%);
+        }
+
+        .multiselect-reset {
+            padding: 1px 1px !important;
+            min-width: 4em !important;
+            margin-left: 5px !important;
+            border-radius: 4px;
+            float: right;
+        }
+
+        .multiselect-apply {
+            padding: 1px 1px !important;
+            min-width: 4em !important;
+            margin-right: 5px !important;
+            border-radius: 4px;
+            float: right;
+            background-color: #a3d0e5 !important;
+        }
+
+        [aria-label="delete"] {
+            position: initial !important;
+        }
+
+        .btn-default {
+            text-align: center;
+        }
+
+        div.k-window-content {
+            padding: 0 !important;
+        }
+
+        .panel {
+            border: 0 !important;
+            border-radius: 0 !important;
+        }
+
+        .dropdown-menu {
+            min-width: 186px !important;
+        }
+
+        .multiselect {
+            width: 200px !important;
+            height: 28px !important;
+        }
+
+        .btn-group {
+            margin-top: -5px !important;
+        }
+
+        .k-auto-scrollable {
+            overflow: visible;
+            overflow-x: visible;
+            overflow-y: visible;
+        }
+
+        .multiselect-search {
+            width: 157px !important;
+        }
+
+        .multiselect-container > li:first-of-type {
+            position: sticky !important;
+            top: 0px !important;
+            z-index: 1 !important;
+            background-color: white;
+            padding: 2px;
+        }
+
+        .multiselect-container > li:last-of-type {
+            position: sticky !important;
+            bottom: 0 !important;
+            display: block;
+            background: white !important;
+            right: 0;
+            float: right;
+            width: 100% !important;
+            padding: 4px;
+        }
+    </style>
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">RMApp</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Resource Allocation</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
