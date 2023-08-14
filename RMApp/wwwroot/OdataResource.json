@@ -1,0 +1,39 @@
+{
+  "@base": "https://projectmadeeasy.sharepoint.com/sites/Development/_api/",
+  "id": "03639265-c9ee-475b-be97-a62afafc6e43",
+  "title": null,
+  "updated": "2023-08-14T17:04:48Z",
+  "value": [
+    {
+	  "ID": 28,
+      "Id": 28,
+      "ResourceID": "6b6c6fc1-4d0d-eb11-bf86-00155da42a02",
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(28)/Resource_x0020_Manager",
+      "Title": "Inactive: Debbie Yuska (Project Made Easy)",
+      "odata.editLink":"Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(28)",
+      "odata.etag": "\"2607\"",
+      "odata.id": "fe01d53b-e3cf-40dc-a26e-0c1b7c0889d5",
+      "odata.type":"SP.Data.Resource_x0020_ManagerListItem",
+    },{
+	  "ID": 29,
+      "Id": 29,
+      "ResourceID": "9df0ced2-680c-eb11-bf92-00155da44d08",
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(29)/Resource_x0020_Manager",
+      "Title": "Inactive: Manas Joshi",
+      "odata.editLink": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(29)",
+      "odata.etag":"\"1362\"",
+      "odata.id": "f889afeb-1048-4bad-bc8b-939efff25339",
+      "odata.type": "SP.Data.Resource_x0020_ManagerListItem",	
+	},{
+	  "ID": 30,
+      "Id": 30,
+      "ResourceID": "fe473751-5d91-eb11-9f03-00155da4ad07",
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(30)/Resource_x0020_Manager",
+      "Title": "Inactive: Lyvia Ebner",
+      "odata.editLink": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(30)",
+      "odata.etag":"\"2602\"",
+      "odata.id": "dfbcfa3b-c392-4526-8a9d-967f1d757f45",
+      "odata.type": "SP.Data.Resource_x0020_ManagerListItem",
+	}
+  ]
+}
