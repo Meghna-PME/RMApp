@@ -2,32 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RMApp</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/RMApp.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jsuites.css" type="text/css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jexcel.css" type="text/css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.common.min.css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.rtl.min.css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.silver.min.css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.mobile.all.min.css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.custom.css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/chosen.min.css">
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap-multiselect.css">
     <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jexcel.js"></script>
     <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jsuites.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-1.12.4.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-ui.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2019.1.220.kendo.all.min.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2018.2.516.kendo.all.min.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery.blockUI.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/chosen.jquery.min.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/loadingoverlay.min.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jsuites.css" type="text/css" />
+    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jexcel.css" type="text/css" />	   
+    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.common.min.css"/>
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.rtl.min.css"/>
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.silver.min.css"/>
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.mobile.all.min.css"/>
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.custom.css"/>       
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2019.1.220.kendo.all.min.js"></script>
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2018.2.516.kendo.all.min.js"></script>
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery.blockUI.js"></script>	
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/chosen.jquery.min.js"></script> 
+	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/chosen.min.css"> 
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/loadingoverlay.min.js"></script>  	
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap-multiselect.js"></script>
+    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap-multiselect.css">
     <style>
       .backgroundBlur {
         position: fixed;
@@ -460,19 +455,6 @@
       <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
           <a class="navbar-brand" asp-area="" asp-page="/Index">Resource Allocation</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-            <ul class="navbar-nav flex-grow-1">
-              <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
@@ -481,14 +463,5 @@
         @RenderBody()
       </main>
     </div>
-    <footer class="border-top footer text-muted">
-      <div class="container">
-        &copy; 2023 - RMApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
-      </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <!--<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>-->
-    @await RenderSectionAsync("Scripts", required: false)
   </body>
 </html>
