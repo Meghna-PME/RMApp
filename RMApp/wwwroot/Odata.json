@@ -1,0 +1,1882 @@
+{
+  "@base": "https://projectmadeeasy.sharepoint.com/sites/Development/_api/",
+  "id": "e917d72b-6939-4327-be0b-7eb5b0c1a9fb",
+  "title": null,
+  "updated": "2023-08-14T13:16:33Z",
+  "entry": [
+    {
+      "@etag": "\"65\"",
+      "id": "9a5d7339-a605-4bc5-9034-52d7435569ac",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(8)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "8"
+          },
+          "Title": "Allocation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "red",
+          "Formula": "Greater than or equal to|ge",
+          "ProjectFilterValue": "115",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "8"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"113\"",
+      "id": "77659544-e972-4d7d-ae3e-21a8ba39ddf8",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(18)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "18"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "Primary Job Role",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "18"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"60\"",
+      "id": "e6e1b073-dca7-49ab-88de-28e8b0f8e4b2",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(20)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "20"
+          },
+          "Title": "Chat",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "20"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"63\"",
+      "id": "2d110c5f-4db8-4b1b-a899-f957f2b3e54f",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(21)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "21"
+          },
+          "Title": "Delete",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "21"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"1\"",
+      "id": "6fea02e9-0c06-4523-91bf-295e292e6134",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(24)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "24"
+          },
+          "Title": "Non Projects",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "24"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"105\"",
+      "id": "4b68679c-733f-4611-b022-020a8d020657",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(26)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "26"
+          },
+          "Title": "Max Units",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "26"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"80\"",
+      "id": "715ea426-67d4-4cb3-a13d-2b9b94f02178",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(27)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "27"
+          },
+          "Title": "Allocation Commitment",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "27"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"79\"",
+      "id": "38fe2942-7bf3-4bc8-9f6f-03270e4eeb31",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(28)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "28"
+          },
+          "Title": "Allocation Rejection",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "28"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"39\"",
+      "id": "a21fb11b-83a5-4999-abd4-753e33540d58",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(30)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "30"
+          },
+          "Title": "Allocation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "5"
+          },
+          "ProjectFilter": "purple",
+          "Formula": "Less than|lt",
+          "ProjectFilterValue": "30",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "30"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"72\"",
+      "id": "025902b0-92fd-412d-8956-9f6432a8bbde",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(31)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "31"
+          },
+          "Title": "Resource Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "Primary Job Role",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "31"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"90\"",
+      "id": "e603b8a6-2d09-4a24-b05d-286cd0720a6a",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(32)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "32"
+          },
+          "Title": "Resource Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "4"
+          },
+          "ProjectFilter": "Resource Departments",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "32"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"58\"",
+      "id": "316ae8fc-5554-4225-86f1-ba43c267c798",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(33)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "33"
+          },
+          "Title": "Resource Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "Location",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "33"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"85\"",
+      "id": "e0d36322-50e2-434a-9ade-1bcdc115237d",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(34)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "34"
+          },
+          "Title": "Resource Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "3"
+          },
+          "ProjectFilter": "ResourceBookingType",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "34"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"70\"",
+      "id": "331eb7ef-2228-476f-812a-929ab028a700",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(35)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "35"
+          },
+          "Title": "Resource Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "7"
+          },
+          "ProjectFilter": "Resource Classification",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "35"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"1\"",
+      "id": "1bc2344d-e522-4679-adbf-fbf1914dcc11",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(39)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "39"
+          },
+          "Title": "Engagement Creation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "39"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"89\"",
+      "id": "21e6dbea-0a01-4e16-826c-891e8b3033b2",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(40)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "40"
+          },
+          "Title": "Potential Items Column",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "ITRanks",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "40"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"24\"",
+      "id": "0df6321c-cbbc-44c7-9032-5de20f0c9a77",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(48)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "48"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "ResourceCostPerUse",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "48"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"4\"",
+      "id": "7a19cfa7-83dd-45d7-928b-9ad4db033b76",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(49)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "49"
+          },
+          "Title": "Potential Ideas Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "Draft",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "49"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"6\"",
+      "id": "368cfc3e-ee13-4d5a-9573-8a2e753b56e4",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(50)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "50"
+          },
+          "Title": "Potential Projects Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "Not Started",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "50"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"5\"",
+      "id": "2ec3e442-ea1f-488d-88a8-896e8bef9acf",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(51)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "51"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "6"
+          },
+          "ProjectFilter": "ResourceCostCenter",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "51"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"11\"",
+      "id": "a69fe808-dc0c-4db0-b273-02cb9a33a0bd",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(52)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "52"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "3"
+          },
+          "ProjectFilter": "ResourceBaseCalendar",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "52"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"6\"",
+      "id": "4f071198-30ad-4bca-bdb2-571556fdcc03",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(53)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "53"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "5"
+          },
+          "ProjectFilter": {
+            "@space": "preserve",
+            "#text": "Last Modified"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "53"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"35\"",
+      "id": "82be9ae5-35ff-469d-8e3f-63dd8b5e0737",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(54)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "54"
+          },
+          "Title": "Project Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "54"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"4\"",
+      "id": "0fffd1a3-10f2-48a1-94a4-49a29c3b2398",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(55)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "55"
+          },
+          "Title": "Resource Display Field",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "4"
+          },
+          "ProjectFilter": "CostCtr",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "55"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"1\"",
+      "id": "f1f7275d-968c-4582-893e-eef1dc52e15e",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(60)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "60"
+          },
+          "Title": "Display Units",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": "Hours",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "60"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"17\"",
+      "id": "1c01ac26-1678-4e8f-aaba-55def6c0f95b",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(61)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "61"
+          },
+          "Title": "Allocation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "Yellow",
+          "Formula": "Greater than|gt",
+          "ProjectFilterValue": "90",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "61"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"13\"",
+      "id": "6a4df482-1c0d-44e2-b61d-8e7cc042a4a8",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(63)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "63"
+          },
+          "Title": "Allocation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "3"
+          },
+          "ProjectFilter": "Blue",
+          "Formula": "Greater than|gt",
+          "ProjectFilterValue": "50",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "63"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"10\"",
+      "id": "0154b89d-b5a6-483d-aef3-e7645b8be453",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(64)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "64"
+          },
+          "Title": "Allocation",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "4"
+          },
+          "ProjectFilter": "green",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "10",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "64"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"23\"",
+      "id": "b7db3a77-f2fd-4109-8bf0-94f26891d909",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(65)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "65"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "10"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "12 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "65"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"26\"",
+      "id": "4960d99a-3a5f-4581-9611-f72778b67de4",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(66)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "66"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "9"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "11 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "66"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"9\"",
+      "id": "683a3c98-3707-4961-ad8d-779e0ec3ffb7",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(68)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "68"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "8"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "10 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "68"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"7\"",
+      "id": "ae79720b-b6ee-48b4-8a64-882a15472d2a",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(69)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "69"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "7"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "9 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "69"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"7\"",
+      "id": "028a4963-96d9-4281-b233-0cb2de59054a",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(70)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "70"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "5"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "7 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "70"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"7\"",
+      "id": "61d6b276-20bc-41a5-b258-5c8656715afa",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(71)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "71"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "6"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "8 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "71"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"37\"",
+      "id": "1148b63d-8234-476a-bb56-54f60fd2db94",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(72)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "72"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "4"
+          },
+          "ProjectFilter": {
+            "@space": "preserve",
+            "#text": "Project Status"
+          },
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "6 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "72"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"11\"",
+      "id": "8ea3a008-b7c9-40c5-b8ca-cff3f9c57af9",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(73)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "73"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "3"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "5 Proposed",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "73"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"9\"",
+      "id": "b418cb43-6959-4a2c-9b7a-9cee9a4e38e4",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(74)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "74"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "ProjectStatus",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "Open/Approved",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "74"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"11\"",
+      "id": "b20e322d-ae30-45e4-b18f-05b1d7f08fc6",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(75)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "75"
+          },
+          "Title": "Project Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "Not Started",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "75"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"72\"",
+      "id": "5046ff55-a922-4798-875a-daea7075e760",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(76)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "76"
+          },
+          "Title": "Potential Items Prefix",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "1"
+          },
+          "ProjectFilter": "ITRanks",
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "76"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"2\"",
+      "id": "e45c593a-e085-4f31-9bb1-7266990c833b",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(80)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "80"
+          },
+          "Title": "Potential Ideas Filter",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "true"
+          },
+          "FormulaNumber": {
+            "@type": "Edm.Double",
+            "#text": "2"
+          },
+          "ProjectFilter": "Project Status",
+          "Formula": "Equal to|eq",
+          "ProjectFilterValue": "Pending",
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "80"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"2\"",
+      "id": "90639bc4-c078-4e0f-972e-49e1b839dd6b",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(81)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "81"
+          },
+          "Title": "Generic Commitment",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "81"
+          }
+        }
+      }
+    },
+    {
+      "@etag": "\"1\"",
+      "id": "93b592fb-6ecd-4583-9fea-4bd7dd1da13f",
+      "category": {
+        "@term": "SP.Data.ManageRMGridListItem",
+        "@scheme": "http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"
+      },
+      "link": {
+        "@rel": "edit",
+        "@href": "Web/Lists(guid'ce5f8098-e8bd-4922-8339-427ef37bc16a')/Items(82)"
+      },
+      "title": null,
+      "updated": "2023-08-14T13:16:33Z",
+      "author": {
+        "name": null
+      },
+      "content": {
+        "@type": "application/xml",
+        "properties": {
+          "Id": {
+            "@type": "Edm.Int32",
+            "#text": "82"
+          },
+          "Title": "Generic Capacity",
+          "Display": {
+            "@type": "Edm.Boolean",
+            "#text": "false"
+          },
+          "FormulaNumber": {
+            "@null": "true"
+          },
+          "ProjectFilter": {
+            "@null": "true"
+          },
+          "Formula": {
+            "@null": "true"
+          },
+          "ProjectFilterValue": {
+            "@null": "true"
+          },
+          "ID": {
+            "@type": "Edm.Int32",
+            "#text": "82"
+          }
+        }
+      }
+    }
+  ]
+}
