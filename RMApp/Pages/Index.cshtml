@@ -902,7 +902,8 @@ $(document).ready(function () {
 		}
 	}
 	var keysProjects = Object.keys(resGetProject[0]);
-	 var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
+	 //var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
+	 var urlM = "https://devopsrmapp.azurewebsites.net/Odata.txt";
 		 var resM = getAjex(urlM);
 		 ResFilterArr = [];
 		 $.each(resM.value, function (indx, MGrid) {
