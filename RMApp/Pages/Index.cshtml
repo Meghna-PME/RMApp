@@ -1162,7 +1162,7 @@ $(document).ready(function () {
 			console.log(e)
 		  }
 		});
-		ExecuteOrDelayUntilScriptLoaded(IsCurrentUserMemberOfGroup, "sp.js");
+		//ExecuteOrDelayUntilScriptLoaded(IsCurrentUserMemberOfGroup, "sp.js");
 		customFieldName = customFieldName != null || customFieldName == '' ?customFieldName.replace(/[&\/\\#, +()$~%.'":*?<>{}-]/g, ''):null;
 		newgetProjectsdatainfo = resGetProject;//newresP.value;
 		filterString = mergeFilterQuery();
@@ -1388,7 +1388,8 @@ function GetRoleEngagementPgae(){
 			// var AGtable = azurewebsites+"/api/Allocation/SPWithSinglePara/AG_ResourceList_All/123"
 	         AGGetProject = AGGetResources;//getAjex(AGtable);
 
-			 var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
+			// var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
+			var urllitget="https://devopsrmapp.azurewebsites.net/OdataResource.json;
 			var getallRmlistdata = getAjex(urllitget);
 			 $.each(getallRmlistdata.value, function (indxL, Ldata) {
 			 $.each(AGGetProject, function (indxA, AGdata) {
