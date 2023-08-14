@@ -903,12 +903,8 @@ $(document).ready(function () {
 	}
 	var keysProjects = Object.keys(resGetProject[0]);
 	 //var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
-	 //var urlM = "https://devopsrmapp.azurewebsites.net/Odata.txt";
-	 //var resM = (readTextFile(urlM));
-	 var jsontext_prdbank = (readTextFile('https://devopsrmapp.azurewebsites.net/Odata.txt'));
-var resM = JSON.parse(jsontext_prdbank);
-
-		 //var resM = getAjex(urlM);
+	 var urlM = "https://devopsrmapp.azurewebsites.net/Odata.json";
+	 var resM = getAjex(urlM);
 		 ResFilterArr = [];
 		 $.each(resM.value, function (indx, MGrid) {
 					if(MGrid.Title == 'Project Display Field'){
