@@ -9792,7 +9792,7 @@ function changeDate(e) {
   function setDate (dDate) {
 	  if (dDate != undefined) {
 		  if (dDate != null) {
-		   return new Date(dDate).format("MMMM yyyy");
+		   return new Date(dDate).toLocaleString('en-us',{month:'long', year:'numeric'});
 		   }
 		}
 	 }
