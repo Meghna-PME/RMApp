@@ -14,7 +14,7 @@
         "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(28)/Resource_x0020_Manager",
-      "Title": "Inactive: Debbie Yuska (Project Made Easy)",
+      "Title": "Inactive: Debbie Yuska (Project Made Easy)"
     },{
 	  "ID": 29,
       "Id": 29,
@@ -25,7 +25,7 @@
         "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(29)/Resource_x0020_Manager",
-      "Title": "Inactive: Manas Joshi",
+      "Title": "Inactive: Manas Joshi"
 	},{
 	  "ID": 30,
       "Id": 30,
@@ -36,7 +36,7 @@
         "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(30)/Resource_x0020_Manager",
-      "Title": "Inactive: Lyvia Ebner",
+      "Title": "Inactive: Lyvia Ebner"
 	},{
 	  "ID": 31,
       "Id": 31,
@@ -44,7 +44,7 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(31)/Resource_x0020_Manager",
       "Title": "Rajat (PME)"
@@ -55,14 +55,14 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   },{
 		"Id": 210,
         "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
-        "Title": "Abhishek Rawat",
+        "Title": "Abhishek Rawat"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(32)/Resource_x0020_Manager",
-      "Title":"Inactive: Mark Graham (Demo User)",
+      "Title":"Inactive: Mark Graham (Demo User)"
 	},{
 	  "ID": 33,
       "Id": 33,
@@ -74,10 +74,10 @@
 	   },{
 		"Id": 210,
         "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
-        "Title": "Abhishek Rawat",
+        "Title": "Abhishek Rawat"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(33)/Resource_x0020_Manager",
-      "Title": "Peyton Manning",
+      "Title": "Peyton Manning"
 	},{
 	  "ID": 34,
       "Id": 34,
@@ -97,10 +97,10 @@
 	   },{
 		"Id": 210,
         "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
-        "Title": "Abhishek Rawat",
+        "Title": "Abhishek Rawat"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(34)/Resource_x0020_Manager",
-      "Title": "Abhishek Rawat",
+      "Title": "Abhishek Rawat"
 	},{
 	  "ID": 35,
       "Id": 35,
@@ -108,10 +108,10 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(35)/Resource_x0020_Manager",
-      "Title": "Lalit Pandey",
+      "Title": "Lalit Pandey"
 	},{
 	  "ID": 37,
       "Id": 37,
@@ -119,10 +119,10 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(37)/Resource_x0020_Manager",
-      "Title": "Inactive: Scott Brown (Project Made Easy)",
+      "Title": "Inactive: Scott Brown (Project Made Easy)"
 	},{
 	  "ID": 38,
       "Id": 38,
@@ -130,10 +130,10 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(38)/Resource_x0020_Manager",
-      "Title": "Inactive: Drew Mery (Project Made Easy)",
+      "Title": "Inactive: Drew Mery (Project Made Easy)"
 	},{
 	  "ID": 39,
       "Id": 39,
@@ -148,7 +148,7 @@
         "Title": "Ariel Penn (Project Made Easy)"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(39)/Resource_x0020_Manager",
-      "Title": "Abhinav Dhar (Project Made Easy)",
+      "Title": "Abhinav Dhar (Project Made Easy)"
 	},{
 	  "ID": 40,
       "Id": 40,
@@ -156,14 +156,14 @@
 	  "Resource_x0020_Manager":[{
 		"Id": 27,
         "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
-        "Title": "Jennifer Jackson (Project Made Easy)",
+        "Title": "Jennifer Jackson (Project Made Easy)"
 	   },{
 		"Id": 210,
         "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
-        "Title": "Abhishek Rawat",
+        "Title": "Abhishek Rawat"
 	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(40)/Resource_x0020_Manager",
-      "Title": "Phani Kumar (Project Made Easy)",
+      "Title": "Phani Kumar (Project Made Easy)"
 	}
   ]
 }
