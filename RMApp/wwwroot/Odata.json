@@ -12,7 +12,7 @@
       "Id": 8,
       "ProjectFilter":"red",
       "ProjectFilterValue": "115",
-      "Title": "Allocation",
+      "Title": "Allocation"
 	},{
 	  "Display":"true",
 	  "Formula":null,
@@ -21,7 +21,7 @@
       "Id": 18,
       "ProjectFilter":"Primary Job Role",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -30,7 +30,7 @@
       "Id": 20,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Chat",
+      "Title": "Chat"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -39,7 +39,7 @@
       "Id": 21,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Delete",
+      "Title": "Delete"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -48,7 +48,7 @@
       "Id": 24,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Non Projects",
+      "Title": "Non Projects"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -57,7 +57,7 @@
       "Id": 26,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Max Units",
+      "Title": "Max Units"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -66,7 +66,7 @@
       "Id": 27,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Allocation Commitment",
+      "Title": "Allocation Commitment"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -75,7 +75,7 @@
       "Id": 28,
       "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Allocation Rejection",
+      "Title": "Allocation Rejection"
 	},{
 	  "Display": true,
       "Formula": "Less than|lt",
@@ -84,7 +84,7 @@
       "Id": 30,
       "ProjectFilter": "purple",
       "ProjectFilterValue": "30",
-      "Title": "Allocation",
+      "Title": "Allocation"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -93,7 +93,7 @@
       "Id": 31,
       "ProjectFilter": "Primary Job Role",
       "ProjectFilterValue": null,
-      "Title": "Resource Filter",
+      "Title": "Resource Filter"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -102,7 +102,7 @@
       "Id": 32,
 	  "ProjectFilter": "Resource Departments",
       "ProjectFilterValue": null,
-      "Title": "Resource Filter",
+      "Title": "Resource Filter"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -111,7 +111,7 @@
       "Id": 33,
       "ProjectFilter": "Location",
       "ProjectFilterValue": null,
-      "Title": "Resource Filter",
+      "Title": "Resource Filter"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -120,7 +120,7 @@
       "Id": 34,
 	  "ProjectFilter": "ResourceBookingType",
       "ProjectFilterValue": null,
-      "Title": "Resource Filter",
+      "Title": "Resource Filter"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -129,7 +129,7 @@
       "Id": 35,
 	  "ProjectFilter": "Resource Classification",
       "ProjectFilterValue": null,
-      "Title": "Resource Filter",
+      "Title": "Resource Filter"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -138,7 +138,7 @@
       "Id": 39,
 	  "ProjectFilter": null,
       "ProjectFilterValue": null,
-      "Title": "Engagement Creation",
+      "Title": "Engagement Creation"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -147,7 +147,7 @@
       "Id": 40,
 	  "ProjectFilter": "ITRanks",
       "ProjectFilterValue": null,
-      "Title": "Potential Items Column",
+      "Title": "Potential Items Column"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -156,7 +156,7 @@
       "Id": 48,
 	  "ProjectFilter": "ResourceCostPerUse",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": true,
       "Formula": "Equal to|eq",
@@ -165,7 +165,7 @@
       "Id": 49,
 	  "ProjectFilter": "Project Status",
       "ProjectFilterValue": "Draft",
-      "Title": "Potential Ideas Filter",
+      "Title": "Potential Ideas Filter"
 	},{
 	  "Display": true,
       "Formula": "Equal to|eq",
@@ -174,7 +174,7 @@
       "Id": 50,
 	  "ProjectFilter": "Project Status",
       "ProjectFilterValue": "Not Started",
-      "Title": "Potential Projects Filter",
+      "Title": "Potential Projects Filter"
 	},{
 	  "Display": false,
       "Formula": null,
@@ -183,7 +183,7 @@
       "Id": 51,
 	  "ProjectFilter": "ResourceCostCenter",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": false,
       "Formula": null,
@@ -192,7 +192,7 @@
       "Id": 52,
 	  "ProjectFilter": "ResourceBaseCalendar",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -201,7 +201,7 @@
       "Id": 53,
 	  "ProjectFilter": "Last Modified ",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -210,7 +210,7 @@
       "Id": 54,
 	  "ProjectFilter": "Project Status",
       "ProjectFilterValue": null,
-      "Title": "Project Display Field",
+      "Title": "Project Display Field"
 	},{
 	  "Display": false,
       "Formula": null,
@@ -219,7 +219,7 @@
       "Id": 55,
 	  "ProjectFilter": "CostCtr",
       "ProjectFilterValue": null,
-      "Title": "Resource Display Field",
+      "Title": "Resource Display Field"
 	},{
 	  "Display": true,
       "Formula": null,
@@ -228,7 +228,7 @@
       "Id": 60,
 	  "ProjectFilter": null,
       "ProjectFilterValue": "Hours",
-      "Title": "Hours",
+      "Title": "Hours"
 	},{
 	  "Display": true,
       "Formula": "Greater than|gt",
@@ -237,7 +237,7 @@
       "Id": 61,
 	  "ProjectFilter": "Yellow",
       "ProjectFilterValue": "90",
-      "Title": "Allocation",
+      "Title": "Allocation"
 	}
   ]
 }
