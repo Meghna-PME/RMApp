@@ -8,32 +8,162 @@
 	  "ID": 28,
       "Id": 28,
       "ResourceID": "6b6c6fc1-4d0d-eb11-bf86-00155da42a02",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(28)/Resource_x0020_Manager",
       "Title": "Inactive: Debbie Yuska (Project Made Easy)",
-      "odata.editLink":"Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(28)",
-      "odata.etag": "\"2607\"",
-      "odata.id": "fe01d53b-e3cf-40dc-a26e-0c1b7c0889d5",
-      "odata.type":"SP.Data.Resource_x0020_ManagerListItem",
     },{
 	  "ID": 29,
       "Id": 29,
       "ResourceID": "9df0ced2-680c-eb11-bf92-00155da44d08",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(29)/Resource_x0020_Manager",
       "Title": "Inactive: Manas Joshi",
-      "odata.editLink": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(29)",
-      "odata.etag":"\"1362\"",
-      "odata.id": "f889afeb-1048-4bad-bc8b-939efff25339",
-      "odata.type": "SP.Data.Resource_x0020_ManagerListItem",	
 	},{
 	  "ID": 30,
       "Id": 30,
       "ResourceID": "fe473751-5d91-eb11-9f03-00155da4ad07",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   }],
       "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(30)/Resource_x0020_Manager",
       "Title": "Inactive: Lyvia Ebner",
-      "odata.editLink": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(30)",
-      "odata.etag":"\"2602\"",
-      "odata.id": "dfbcfa3b-c392-4526-8a9d-967f1d757f45",
-      "odata.type": "SP.Data.Resource_x0020_ManagerListItem",
+	},{
+	  "ID": 31,
+      "Id": 31,
+      "ResourceID": "15a311e5-26c0-ea11-b096-00155da83e03",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(31)/Resource_x0020_Manager",
+      "Title": "Rajat (PME)"
+	},{
+	  "ID": 32,
+      "Id": 32,
+      "ResourceID": "89752f44-690c-eb11-b0e6-00155da84d2b",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   },{
+		"Id": 210,
+        "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
+        "Title": "Abhishek Rawat",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(32)/Resource_x0020_Manager",
+      "Title":"Inactive: Mark Graham (Demo User)",
+	},{
+	  "ID": 33,
+      "Id": 33,
+      "ResourceID": "8a752f44-690c-eb11-b0e6-00155da84d2b",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   },{
+		"Id": 210,
+        "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
+        "Title": "Abhishek Rawat",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(33)/Resource_x0020_Manager",
+      "Title": "Peyton Manning",
+	},{
+	  "ID": 34,
+      "Id": 34,
+      "ResourceID": "733c2aa6-680c-eb11-b0f0-00155da87337",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   },{
+		"Id": 746,
+        "Name": "i:0#.f|membership|athira@projectmadeeasy.com",
+        "Title": "Athira Project Made Easy (PME)"
+	   },{
+		"Id": 902,
+        "Name": "i:0#.f|membership|apenn@projectmadeeasy.com",
+        "Title": "Ariel Penn (Project Made Easy)"
+	   },{
+		"Id": 210,
+        "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
+        "Title": "Abhishek Rawat",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(34)/Resource_x0020_Manager",
+      "Title": "Abhishek Rawat",
+	},{
+	  "ID": 35,
+      "Id": 35,
+      "ResourceID": "d27c0b1a-b730-eb11-bf90-00155dac481b",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(35)/Resource_x0020_Manager",
+      "Title": "Lalit Pandey",
+	},{
+	  "ID": 37,
+      "Id": 37,
+      "ResourceID":"884c0304-e372-e911-afbc-00155dc4358c",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(37)/Resource_x0020_Manager",
+      "Title": "Inactive: Scott Brown (Project Made Easy)",
+	},{
+	  "ID": 38,
+      "Id": 38,
+      "ResourceID": "894c0304-e372-e911-afbc-00155dc4358c",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(38)/Resource_x0020_Manager",
+      "Title": "Inactive: Drew Mery (Project Made Easy)",
+	},{
+	  "ID": 39,
+      "Id": 39,
+      "ResourceID": "8a4c0304-e372-e911-afbc-00155dc4358c",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)"
+	   },{
+		"Id": 902,
+        "Name": "i:0#.f|membership|apenn@projectmadeeasy.com",
+        "Title": "Ariel Penn (Project Made Easy)"
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(39)/Resource_x0020_Manager",
+      "Title": "Abhinav Dhar (Project Made Easy)",
+	},{
+	  "ID": 40,
+      "Id": 40,
+      "ResourceID": "8b4c0304-e372-e911-afbc-00155dc4358c",
+	  "Resource_x0020_Manager":[{
+		"Id": 27,
+        "Name": "i:0#.f|membership|jjackson@projectmadeeasy.com",
+        "Title": "Jennifer Jackson (Project Made Easy)",
+	   },{
+		"Id": 210,
+        "Name": "i:0#.f|membership|abhishek@projectmadeeasy.com",
+        "Title": "Abhishek Rawat",
+	   }],
+      "Resource_x0020_Manager@odata.navigationLinkUrl": "Web/Lists(guid'c81ef379-29c5-484e-88e8-21392d885cf3')/Items(40)/Resource_x0020_Manager",
+      "Title": "Phani Kumar (Project Made Easy)",
 	}
   ]
 }
