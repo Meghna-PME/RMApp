@@ -238,6 +238,42 @@
 	  "ProjectFilter": "Yellow",
       "ProjectFilterValue": "90",
       "Title": "Allocation"
+	},{
+	  "Display": true,
+      "Formula": "Equal to|eq",
+      "FormulaNumber": 4,
+      "ID": 72,
+      "Id": 72,
+      "ProjectFilter": "Project Status ",
+      "ProjectFilterValue": "6 Proposed",
+      "Title": "Project Filter"
+	},{
+	  "Display": true,
+      "Formula": "Equal to|eq",
+      "FormulaNumber": 3,
+      "ID": 73,
+      "Id": 73,
+      "ProjectFilter": "Project Status",
+      "ProjectFilterValue": "5 Proposed",
+      "Title":"Project Filter"
+	},{
+	  "Display": true,
+      "Formula": "Equal to|eq",
+      "FormulaNumber": 1,
+      "ID": 74,
+      "Id": 74,
+      "ProjectFilter": "ProjectStatus",
+      "ProjectFilterValue": "Open/Approved",
+      "Title": "Project Filter",
+	},{
+	  "Display": true,
+      "Formula": "Equal to|eq",
+      "FormulaNumber": 2,
+      "ID": 75,
+      "Id": 75,
+      "ProjectFilter":"Project Status",
+      "ProjectFilterValue": "Not Started",
+      "Title": "Project Filter"
 	}
   ]
 }
