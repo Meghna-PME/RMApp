@@ -1170,11 +1170,12 @@ $(document).ready(function () {
       })
 
 function userCheck(){
+var userID = 915;
   if(userID == 915){
 	userInGroup = true;
   }
   if(userInGroup) {
-	var userID = 915;
+	
 	setTimeout(function(){
 	  $("#drp_Role").data("kendoDropDownList").value(userID);
 	  $("#drp_Role").change();
