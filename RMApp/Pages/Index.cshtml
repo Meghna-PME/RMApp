@@ -1162,13 +1162,44 @@ $(document).ready(function () {
 			console.log(e)
 		  }
 		});
-		ExecuteOrDelayUntilScriptLoaded(IsCurrentUserMemberOfGroup, "sp.js");
+		//ExecuteOrDelayUntilScriptLoaded(IsCurrentUserMemberOfGroup, "sp.js");
+		userCheck();
 		customFieldName = customFieldName != null || customFieldName == '' ?customFieldName.replace(/[&\/\\#, +()$~%.'":*?<>{}-]/g, ''):null;
 		newgetProjectsdatainfo = resGetProject;//newresP.value;
 		filterString = mergeFilterQuery();
       })
 
-
+function userCheck(){
+  if(userID == 915){
+	userInGroup = true;
+  }
+  if(userInGroup) {
+	var userID = 915;
+	setTimeout(function(){
+	  $("#drp_Role").data("kendoDropDownList").value(userID);
+	  $("#drp_Role").change();
+	}, 10);
+	GetRoleEngagementPgae();
+	$('.hideadminMList').hide()
+	if(Non_Projects){
+	  $('.hideadminMList').show()
+	}
+	$("#drp_RoleRead").hide();
+  } else { 
+	userInGroup = false;
+	$('.hideadmin').hide();
+	$('.hideadminMList').hide()
+	GetRoleEngagementPgae()
+	var d = $("#drp_Role").data("kendoDropDownList");
+	d.wrapper.hide();
+	$("#drp_RoleRead").hide();
+	$("#rrole").css('padding-bottom','9px')
+	$('#1').hide();
+	$('#2').hide();
+	$('#3').css('padding-left','0px')
+	$('#multirrole').css('padding-left','0px')
+  }
+}
 
 function mergeFilterQuery(){
 
