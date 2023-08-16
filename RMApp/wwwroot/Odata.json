@@ -264,7 +264,7 @@
       "Id": 74,
       "ProjectFilter": "ProjectStatus",
       "ProjectFilterValue": "Open/Approved",
-      "Title": "Project Filter",
+      "Title": "Project Filter"
 	},{
 	  "Display": true,
       "Formula": "Equal to|eq",
