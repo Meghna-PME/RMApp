@@ -2,30 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jexcel.js"></script>
-    <script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jsuites.js"></script>
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jsuites.css" type="text/css" />
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/jexcel.css" type="text/css" />	   
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.common.min.css"/>
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.rtl.min.css"/>
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.silver.min.css"/>
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.mobile.all.min.css"/>
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/kendo.custom.css"/>       
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-1.12.4.js"></script>
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery-ui.js"></script>
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2019.1.220.kendo.all.min.js"></script>
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/2018.2.516.kendo.all.min.js"></script>
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/jquery.blockUI.js"></script>	
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/chosen.jquery.min.js"></script> 
-	<link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/chosen.min.css"> 
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/loadingoverlay.min.js"></script>  	
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="https://devopsrmapp.azurewebsites.net/js/bootstrap-multiselect.js"></script>
-    <link rel="stylesheet" href="https://devopsrmapp.azurewebsites.net/css/bootstrap-multiselect.css">
+    <link rel="stylesheet" href="~/css/jsuites.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/jexcel.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/kendo.common.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/kendo.rtl.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/kendo.silver.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/kendo.mobile.all.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/kendo.custom.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/chosen.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-multiselect.css" asp-append-version="true" />
+    <script type="text/javascript" src="~/js/jexcel.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/jsuites.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/jquery-1.12.4.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/jquery-ui.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/2019.1.220.kendo.all.min.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/2018.2.516.kendo.all.min.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/jquery.blockUI.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/chosen.jquery.min.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/loadingoverlay.min.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script type="text/javascript" src="~/js/bootstrap-multiselect.js" asp-append-version="true"></script>
     <style>
       #PMLoadgrid{
-        width: fit-content;//Devops
+        width: fit-content;
+        top:92px;
       }
       .backgroundBlur {
         position: fixed;
@@ -60,9 +61,7 @@
       }
       #Daterange {
         color: #00435e;
-        //margin-top: 49px;Devops
         margin-bottom: 10px;
-        //padding: -29px 9px;Devops
         font-size: 13px;
         font-weight: normal;
         text-align: center;
@@ -454,7 +453,7 @@
     </style>
   </head>
   <body>
-    <header>
+    <!--<header>
       <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
           <a class="navbar-brand" asp-area="" asp-page="/Index">Resource Allocation</a>
@@ -462,9 +461,9 @@
       </nav>
     </header>
     <div class="container">
-      <main role="main" class="pb-3">
+      <main role="main" class="pb-3">-->
         @RenderBody()
-      </main>
-    </div>
+      <!--</main>
+    </div>-->
   </body>
 </html>
