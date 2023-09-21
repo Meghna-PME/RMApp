@@ -854,8 +854,7 @@ input {
 	var chkwindownon = false;
 	function clickNonProjectName() {
 
-		//var username = _spPageContextInfo.userDisplayName;
-		var username = "meghna";
+		var username = userDisplayNameSp;
 		var apiBaseUrl = azurewebsites + "/api/";
 		MGridcheckNewchanges = false
 		var rows = jExcelCostGridCateg.rows;
@@ -1033,7 +1032,7 @@ input {
 			return;
 		}
 
-		var username = 'Meghna';
+		var username = userDisplayNameSp;
 		var apiBaseUrl = azurewebsites + "/api/";
 		if ($("#txtNonProjectName").val().trim() != "") {
 			var vale = $("#txtNonProjectName").val()
@@ -1191,8 +1190,17 @@ input {
 	var nonProjectUID = [];
 	var apiBaseUrlNon = "https://appcgdev.azurewebsites.net/api/";
 	var filterApplied_forvisiblitu = false;
-	//var siteAbsoluteUrl = _spPageContextInfo.siteAbsoluteUrl
-	var siteAbsoluteUrl = 'https://projectmadeeasy.sharepoint.com/sites/Development';
+	if(location.hostname=="projectmadeeasy.sharepoint.com"){
+	  var siteAbsoluteUrl =_spPageContextInfo.siteAbsoluteUrl;
+      var userIdSp=_spPageContextInfo.userId;
+      var userDisplayNameSp=_spPageContextInfo.userDisplayName;
+	  var userLoginNameSp=_spPageContextInfo.userLoginName;
+	}else{
+	  var siteAbsoluteUrl ='https://projectmadeeasy.sharepoint.com/sites/Development';
+      var userIdSp=915;
+      var userDisplayNameSp='Meghna';
+	  var userLoginNameSp='meghna@projectmadeeasy.com';
+	}
 	var azurewebsites = "https://appcgdev.azurewebsites.net";
 	var AGGetResources = [];
 	var cstart;
@@ -1254,8 +1262,11 @@ input {
 			}
 		}
 		var keysProjects = Object.keys(resGetProject[0]);
-		//var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
-		var urlM = "Odata.json";
+		if(location.hostname=="projectmadeeasy.sharepoint.com"){
+		  var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
+		}else{
+		  var urlM = "Odata.json";
+		}
 		var resM = getAjex(urlM);
 		ResFilterArr = [];
 		$.each(resM.value, function (indx, MGrid) {
@@ -1521,8 +1532,8 @@ input {
 	})
 
 	function userCheck() {
-		var userID = 915;
-		if (userID == 915) {
+		
+		if (userID == userIdSp) {
 			userInGroup = true;
 		}
 		if (userInGroup) {
@@ -1682,8 +1693,7 @@ input {
 
 			if (userInGroup) {
 
-				//var userID   = _spPageContextInfo.userId;
-				var userID = 915;
+				var userID   = userIdSp;
 				setTimeout(function () {
 					$("#drp_Role").data("kendoDropDownList").value(userID);
 					$("#drp_Role").change();
@@ -1770,9 +1780,11 @@ input {
 
 		// var AGtable = azurewebsites+"/api/Allocation/SPWithSinglePara/AG_ResourceList_All/123"
 		AGGetProject = AGGetResources;//getAjex(AGtable);
-
-		// var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
+if(location.hostname=="projectmadeeasy.sharepoint.com"){
+		 var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
+		 }else{
 		var urllitget = "OdataResource.json";
+		}
 		var getallRmlistdata = getAjex(urllitget);
 		$.each(getallRmlistdata.value, function (indxL, Ldata) {
 			$.each(AGGetProject, function (indxA, AGdata) {
@@ -1786,8 +1798,7 @@ input {
 		})
 		debugger
 		//	ResourceIsActive,ResourceIsGeneric,ResourceMaxUnits,ResourceID,PrimaryJobRole,
-		//var userID   = _spPageContextInfo.userId;
-		var userID = 915;
+		var userID   = userIdSp;
 		//var url = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceIsActive,ResourceIsGeneric,ResourceID,ResourceMaxUnits,PrimaryJobRole,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id&$filter=ResourceIsActive eq true and Resource_x0020_Manager/Id eq "+userID//+"&$orderby=Title desc"
 		var checkR;
 		if (userInGroup) {
@@ -1894,8 +1905,7 @@ input {
 			}
 		}
 		if (!userInGroup) {
-			//var username = _spPageContextInfo.userDisplayName;
-			var username = 'Meghna';
+			var username = userDisplayNameSp;
 			for (var j = 0; j < datad.length; j++) {
 				if (username != datad[j].Title) {
 					datad.splice(i, 1);
@@ -1959,14 +1969,13 @@ input {
 		$('.valhide').hide()
 
 		if (!userInGroup) {
-			//var userID   = _spPageContextInfo.userId;
-			var userID = 915;
+			var userID   = userIdSp;
 			var multiSelect = $("#drp_Role").data("kendoDropDownList")
 			multiSelect.readonly();
 			multiSelect.value([userID])
 			// roleEngagementload()
 
-			$("#drp_RoleRead").val('Meghna');
+			$("#drp_RoleRead").val(userDisplayNameSp);
 
 			// roleEngagementload()
 			getManagers();
@@ -2012,8 +2021,7 @@ input {
 			inactivUserIdn2 = false;
 			globalFilterAr = [];
 			if (!userInGroup) {
-				var id = 915
-				var resourceName = id.toString();
+				var resourceName = userIdSp.toString();
 
 				var Secman = []
 				for (var j = 0; j < datachkBLK.length; j++) {
@@ -2181,9 +2189,7 @@ input {
 
 		var resourceName = ''
 		if (!userInGroup) {
-			var id = 915
-			var resourceName = id.toString();
-			//resourceName  = _spPageContextInfo.userId.toString();
+			resourceName  = userIdSp.toString();
 		} else {
 			resourceName = $("#drp_Role").data("kendoDropDownList").value();
 		}
@@ -9117,8 +9123,8 @@ input {
 		var commentUser = $('#comment').val()
 		if (commentUser != null && commentUser != '') {
 
-			var ModifiedBy = 'Meghna';
-			var ModifiedbyLoginName = 'meghna@projectmadeeasy.com';
+			var ModifiedBy = userDisplayNameSp;
+			var ModifiedbyLoginName = userLoginNameSp;
 			singleObj.push({ 'ID': '001', 'AllocationUID': UIDCopy, 'Comments': commentUser, 'Modifiedby': ModifiedBy, 'Modified': "2018-08-19T08:39:09.22", 'ModifiedbyLoginName': ModifiedbyLoginName })
 
 			var UpconJson = JSON.stringify(singleObj);
@@ -9211,10 +9217,10 @@ input {
 							checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 							$("#" + UIDCopy).addClass("CIcolorFill");
 						} else {
-							if (nameReso == 'Meghna') {
+							if (nameReso == userDisplayNameSp) {
 								checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 								$("#" + UIDCopy).addClass("CIcolorFill");
-								if (nameReso == 'Meghna') {
+								if (nameReso == userDisplayNameSp) {
 									CReadData.push({ "ID": CommentEng[i].ID, "CommentRead": "Yes" })
 								}
 							} else {
@@ -9222,7 +9228,7 @@ input {
 								$("#" + UIDCopy).addClass("CIcolor");
 							}
 						}
-						if ('Meghna' == CommentEng[i].ModifiedbyLoginName) {
+						if (userDisplayNameSp == CommentEng[i].ModifiedbyLoginName) {
 
 
 							//htg = "<div style='text-align: end;background-color: lightgray;'><span style='font-weight: bold;'>"+CommentEng[i].ModifiedbyLoginName+' '+ ConvertDateToMMDDYYYY(CommentEng[i].Modified)+"</span><br><p>"+CommentEng[i].Comments+"</p></div> "
@@ -9251,7 +9257,7 @@ input {
 						}
 						else {
 							/*if(CommentEng[i].CommentRead==0){
-							if(nameReso == _spPageContextInfo.userDisplayName){
+							if(nameReso == userDisplayNameSp){
 							  checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 							}else{
 							  checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;"></span>'
@@ -9298,7 +9304,7 @@ input {
 		var nameReso = data.Projectname
 		var bname = data.Status.split('^')[1]
 		var Num = 99
-		if (nameReso == 'Meghna') {
+		if (nameReso == userDisplayNameSp) {
 			$("#" + UIDCopy).removeClass("CIcolor")
 			if (data.CommentRead != 2) {
 				$("#" + UIDCopy).addClass("CIcolorFill")
@@ -9327,16 +9333,16 @@ input {
 						if (CommentEng[i].CommentRead == "Yes") {
 							checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 						} else {
-							if (nameReso == 'Meghna') {
+							if (nameReso == userDisplayNameSp) {
 								checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
-								if (Rnamepage == 'Meghna') {
+								if (Rnamepage == userDisplayNameSp) {
 									CReadData.push({ "ID": CommentEng[i].ID, "CommentRead": "Yes" })
 								}
 							} else {
 								var checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;"></span>'
 							}
 						}
-						if ('Meghna' == CommentEng[i].ModifiedbyLoginName) {
+						if (userDisplayNameSp == CommentEng[i].ModifiedbyLoginName) {
 							//htg = "<div style='text-align: end;background-color: lightgray;'><span style='font-weight: bold;'>"+CommentEng[i].ModifiedbyLoginName+' '+ ConvertDateToMMDDYYYY(CommentEng[i].Modified)+"</span><br><p>"+CommentEng[i].Comments+"</p></div> "
 							//htg = '<div style="width: 60%; background-color: #c3dbe6;  color: black; margin-left: 198px;" class="panel panel-default"><img src="'+sacimg+'" alt="" data-themekey="#" style="margin-left: 352px;background-color: lightgray; width: 8%; border-radius: 13px;"><span class="k-icon k-i-arrow-60-right" style=" margin-left: 340px; color: #c3dbe6;font-size: 18px;margin-top: -38px;"></span><div style="padding-top: 0px;" class=""><p style="font-size: 11px;font-weight: bold;padding-top: -12px;margin-left: 8px;margin-top: -36px;">'+CommentEng[i].Modifiedby+'  '+ConvertDateToMMDDYYYY(CommentEng[i].Modified)+'</p><p style="margin-top: -7px;font-size: 12px; margin-left: 7px;">'+CommentEng[i].Comments+'</p></div></div>'
 							//htg = '<div style="width: 60%; background-color: #c3dbe6;  color: black; margin-left: 198px;" class="panel panel-default"><img src="'+sacimg+'" alt="" data-themekey="#" style="margin-left: 368px;background-color: lightgray; width: 8%; border-radius: 13px;"><span class="k-icon k-i-arrow-60-right" style=" margin-left: 356px; color: #c3dbe6;font-size: 18px;margin-top: -40px;"></span><div style="padding-top: 0px;" class=""><p style="font-size: 11px;font-weight: bold;padding-top: -12px;margin-left: 8px;margin-top: -28px;">'+CommentEng[i].Modifiedby+'  '+ConvertDateToMMDDYYYY(CommentEng[i].Modified)+'</p><p style="margin-top: -7px;font-size: 12px; margin-left: 7px;">'+CommentEng[i].Comments+'</p></div></div>'
@@ -9414,7 +9420,7 @@ input {
 		var singleObj = {};
 		var listOfObjects = [];
 		singleObj.Resourceuid = data.AllocationUID;
-		singleObj.ModifiedBy = 'Meghna';
+		singleObj.ModifiedBy = userDisplayNameSp;
 		singleObj.Source = "ResourceManager"
 		listOfObjects.push(singleObj);
 		getDeleteData(listOfObjects, url);
@@ -9496,7 +9502,7 @@ input {
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = 'Meghna';
+			singleObj.ModifiedBy = userDisplayNameSp;
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
@@ -9610,7 +9616,7 @@ input {
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = 'Meghna';
+			singleObj.ModifiedBy = userDisplayNameSp;
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
@@ -9709,7 +9715,7 @@ input {
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = 'Meghna';
+			singleObj.ModifiedBy = userDisplayNameSp;
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
