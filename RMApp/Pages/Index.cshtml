@@ -854,7 +854,7 @@ input {
 	var chkwindownon = false;
 	function clickNonProjectName() {
 
-		var username = userDisplayNameSp;
+		var username = userDisplaySp;
 		var apiBaseUrl = azurewebsites + "/api/";
 		MGridcheckNewchanges = false
 		var rows = jExcelCostGridCateg.rows;
@@ -1032,7 +1032,7 @@ input {
 			return;
 		}
 
-		var username = userDisplayNameSp;
+		var username = 'Meghna';
 		var apiBaseUrl = azurewebsites + "/api/";
 		if ($("#txtNonProjectName").val().trim() != "") {
 			var vale = $("#txtNonProjectName").val()
@@ -1190,16 +1190,14 @@ input {
 	var nonProjectUID = [];
 	var apiBaseUrlNon = "https://appcgdev.azurewebsites.net/api/";
 	var filterApplied_forvisiblitu = false;
-	if(location.hostname=="projectmadeeasy.sharepoint.com"){
-	  var siteAbsoluteUrl =_spPageContextInfo.siteAbsoluteUrl;
-      var userIdSp=_spPageContextInfo.userId;
-      var userDisplayNameSp=_spPageContextInfo.userDisplayName;
-	  var userLoginNameSp=_spPageContextInfo.userLoginName;
+	if (location.hostname == 'projectmadeeasy.sharepoint.com') {
+	  var siteAbsoluteUrl = _spPageContextInfo.siteAbsoluteUrl;
+	  var userDisplaySp = _spPageContextInfo.userDisplayName;
+	  var userIdSp = _spPageContextInfo.userId;
 	}else{
-	  var siteAbsoluteUrl ='https://projectmadeeasy.sharepoint.com/sites/Development';
-      var userIdSp=915;
-      var userDisplayNameSp='Meghna';
-	  var userLoginNameSp='meghna@projectmadeeasy.com';
+	  var siteAbsoluteUrl = 'https://projectmadeeasy.sharepoint.com/sites/Development';
+	  var userDisplaySp = 'Meghna';
+	  var userIdSp = 915;
 	}
 	var azurewebsites = "https://appcgdev.azurewebsites.net";
 	var AGGetResources = [];
@@ -1262,11 +1260,8 @@ input {
 			}
 		}
 		var keysProjects = Object.keys(resGetProject[0]);
-		if(location.hostname=="projectmadeeasy.sharepoint.com"){
-		  var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
-		}else{
-		  var urlM = "Odata.json";
-		}
+		//var urlM = siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Settings')/items?$top=4998&$select=ID,Formula,FormulaNumber,Title,ProjectFilter,Display,ProjectFilterValue"//,FliterAndOr"
+		var urlM = "Odata.json";
 		var resM = getAjex(urlM);
 		ResFilterArr = [];
 		$.each(resM.value, function (indx, MGrid) {
@@ -1532,8 +1527,8 @@ input {
 	})
 
 	function userCheck() {
-		
-		if (userID == userIdSp) {
+		var userID = 915;
+		if (userID == 915) {
 			userInGroup = true;
 		}
 		if (userInGroup) {
@@ -1780,11 +1775,9 @@ input {
 
 		// var AGtable = azurewebsites+"/api/Allocation/SPWithSinglePara/AG_ResourceList_All/123"
 		AGGetProject = AGGetResources;//getAjex(AGtable);
-if(location.hostname=="projectmadeeasy.sharepoint.com"){
-		 var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
-		 }else{
+
+		// var urllitget=siteAbsoluteUrl+"/_api/web/lists/getByTitle('RM%20App%20Resources')/items?$top=4998&$select=ID,Title,ResourceID,Resource_x0020_Manager/Id,Resource_x0020_Manager/Name,Resource_x0020_Manager/Title&$expand=Resource_x0020_Manager/Id";
 		var urllitget = "OdataResource.json";
-		}
 		var getallRmlistdata = getAjex(urllitget);
 		$.each(getallRmlistdata.value, function (indxL, Ldata) {
 			$.each(AGGetProject, function (indxA, AGdata) {
@@ -1905,7 +1898,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			}
 		}
 		if (!userInGroup) {
-			var username = userDisplayNameSp;
+			var username = userDisplaySp;
 			for (var j = 0; j < datad.length; j++) {
 				if (username != datad[j].Title) {
 					datad.splice(i, 1);
@@ -1975,7 +1968,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			multiSelect.value([userID])
 			// roleEngagementload()
 
-			$("#drp_RoleRead").val(userDisplayNameSp);
+			$("#drp_RoleRead").val('Meghna');
 
 			// roleEngagementload()
 			getManagers();
@@ -2021,7 +2014,8 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			inactivUserIdn2 = false;
 			globalFilterAr = [];
 			if (!userInGroup) {
-				var resourceName = userIdSp.toString();
+				var id = 915
+				var resourceName = id.toString();
 
 				var Secman = []
 				for (var j = 0; j < datachkBLK.length; j++) {
@@ -9123,8 +9117,8 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 		var commentUser = $('#comment').val()
 		if (commentUser != null && commentUser != '') {
 
-			var ModifiedBy = userDisplayNameSp;
-			var ModifiedbyLoginName = userLoginNameSp;
+			var ModifiedBy = 'Meghna';
+			var ModifiedbyLoginName = 'meghna@projectmadeeasy.com';
 			singleObj.push({ 'ID': '001', 'AllocationUID': UIDCopy, 'Comments': commentUser, 'Modifiedby': ModifiedBy, 'Modified': "2018-08-19T08:39:09.22", 'ModifiedbyLoginName': ModifiedbyLoginName })
 
 			var UpconJson = JSON.stringify(singleObj);
@@ -9217,10 +9211,10 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 							checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 							$("#" + UIDCopy).addClass("CIcolorFill");
 						} else {
-							if (nameReso == userDisplayNameSp) {
+							if (nameReso == 'Meghna') {
 								checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 								$("#" + UIDCopy).addClass("CIcolorFill");
-								if (nameReso == userDisplayNameSp) {
+								if (nameReso == 'Meghna') {
 									CReadData.push({ "ID": CommentEng[i].ID, "CommentRead": "Yes" })
 								}
 							} else {
@@ -9228,7 +9222,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 								$("#" + UIDCopy).addClass("CIcolor");
 							}
 						}
-						if (userDisplayNameSp == CommentEng[i].ModifiedbyLoginName) {
+						if ('Meghna' == CommentEng[i].ModifiedbyLoginName) {
 
 
 							//htg = "<div style='text-align: end;background-color: lightgray;'><span style='font-weight: bold;'>"+CommentEng[i].ModifiedbyLoginName+' '+ ConvertDateToMMDDYYYY(CommentEng[i].Modified)+"</span><br><p>"+CommentEng[i].Comments+"</p></div> "
@@ -9257,7 +9251,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 						}
 						else {
 							/*if(CommentEng[i].CommentRead==0){
-							if(nameReso == userDisplayNameSp){
+							if(nameReso == userDisplaySp){
 							  checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 							}else{
 							  checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;"></span>'
@@ -9304,7 +9298,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 		var nameReso = data.Projectname
 		var bname = data.Status.split('^')[1]
 		var Num = 99
-		if (nameReso == userDisplayNameSp) {
+		if (nameReso == 'Meghna') {
 			$("#" + UIDCopy).removeClass("CIcolor")
 			if (data.CommentRead != 2) {
 				$("#" + UIDCopy).addClass("CIcolorFill")
@@ -9333,16 +9327,16 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 						if (CommentEng[i].CommentRead == "Yes") {
 							checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
 						} else {
-							if (nameReso == userDisplayNameSp) {
+							if (nameReso == 'Meghna') {
 								checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;color: blue;"><span class="k-icon k-i-check"></span></span>'
-								if (Rnamepage == userDisplayNameSp) {
+								if (Rnamepage == 'Meghna') {
 									CReadData.push({ "ID": CommentEng[i].ID, "CommentRead": "Yes" })
 								}
 							} else {
 								var checkr = '<span class="k-icon k-i-check" style="margin-top: -5px;"></span>'
 							}
 						}
-						if (userDisplayNameSp == CommentEng[i].ModifiedbyLoginName) {
+						if ('Meghna' == CommentEng[i].ModifiedbyLoginName) {
 							//htg = "<div style='text-align: end;background-color: lightgray;'><span style='font-weight: bold;'>"+CommentEng[i].ModifiedbyLoginName+' '+ ConvertDateToMMDDYYYY(CommentEng[i].Modified)+"</span><br><p>"+CommentEng[i].Comments+"</p></div> "
 							//htg = '<div style="width: 60%; background-color: #c3dbe6;  color: black; margin-left: 198px;" class="panel panel-default"><img src="'+sacimg+'" alt="" data-themekey="#" style="margin-left: 352px;background-color: lightgray; width: 8%; border-radius: 13px;"><span class="k-icon k-i-arrow-60-right" style=" margin-left: 340px; color: #c3dbe6;font-size: 18px;margin-top: -38px;"></span><div style="padding-top: 0px;" class=""><p style="font-size: 11px;font-weight: bold;padding-top: -12px;margin-left: 8px;margin-top: -36px;">'+CommentEng[i].Modifiedby+'  '+ConvertDateToMMDDYYYY(CommentEng[i].Modified)+'</p><p style="margin-top: -7px;font-size: 12px; margin-left: 7px;">'+CommentEng[i].Comments+'</p></div></div>'
 							//htg = '<div style="width: 60%; background-color: #c3dbe6;  color: black; margin-left: 198px;" class="panel panel-default"><img src="'+sacimg+'" alt="" data-themekey="#" style="margin-left: 368px;background-color: lightgray; width: 8%; border-radius: 13px;"><span class="k-icon k-i-arrow-60-right" style=" margin-left: 356px; color: #c3dbe6;font-size: 18px;margin-top: -40px;"></span><div style="padding-top: 0px;" class=""><p style="font-size: 11px;font-weight: bold;padding-top: -12px;margin-left: 8px;margin-top: -28px;">'+CommentEng[i].Modifiedby+'  '+ConvertDateToMMDDYYYY(CommentEng[i].Modified)+'</p><p style="margin-top: -7px;font-size: 12px; margin-left: 7px;">'+CommentEng[i].Comments+'</p></div></div>'
@@ -9420,7 +9414,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 		var singleObj = {};
 		var listOfObjects = [];
 		singleObj.Resourceuid = data.AllocationUID;
-		singleObj.ModifiedBy = userDisplayNameSp;
+		singleObj.ModifiedBy = 'Meghna';
 		singleObj.Source = "ResourceManager"
 		listOfObjects.push(singleObj);
 		getDeleteData(listOfObjects, url);
@@ -9502,7 +9496,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = userDisplayNameSp;
+			singleObj.ModifiedBy = 'Meghna';
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
@@ -9616,7 +9610,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = userDisplayNameSp;
+			singleObj.ModifiedBy = 'Meghna';
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
@@ -9715,7 +9709,7 @@ if(location.hostname=="projectmadeeasy.sharepoint.com"){
 			var fdatePart = fdate.split(' ');
 			var FMonthNum = mL.indexOf(fdatePart[0]) + 1;
 			singleObj.end = FMonthNum + " " + fdatePart[1];
-			singleObj.ModifiedBy = userDisplayNameSp;
+			singleObj.ModifiedBy = 'Meghna';
 			singleObj.Source = "ResourceManager";
 			var lop = false;
 			//gridcolums = gridcolums.slice('AllocationStatus',-1)
