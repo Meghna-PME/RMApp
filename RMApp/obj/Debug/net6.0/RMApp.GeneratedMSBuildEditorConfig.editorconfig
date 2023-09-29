@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RMApp
 build_property.RootNamespace = RMApp
-build_property.ProjectDir = F:\PME\DevOps\RMApp\RMApp\
+build_property.ProjectDir = D:\Meghna\RMApp\RMApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\PME\DevOps\RMApp\RMApp
+build_property.MSBuildProjectDirectory = D:\Meghna\RMApp\RMApp
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/Error.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/Index.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/Privacy.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/_ViewImports.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/_ViewStart.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/PME/DevOps/RMApp/RMApp/Pages/Shared/_Layout.cshtml]
+[D:/Meghna/RMApp/RMApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xxj6l0e0h5
