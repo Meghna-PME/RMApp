@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Source\\Repos\\RMApp\\RMApp\\RMApp.csproj": {}
+    "C:\\Users\\HP\\source\\repos\\RMApp\\RMApp\\RMApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Source\\Repos\\RMApp\\RMApp\\RMApp.csproj": {
+    "C:\\Users\\HP\\source\\repos\\RMApp\\RMApp\\RMApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Source\\Repos\\RMApp\\RMApp\\RMApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\RMApp\\RMApp\\RMApp.csproj",
         "projectName": "RMApp",
-        "projectPath": "C:\\Users\\HP\\Source\\Repos\\RMApp\\RMApp\\RMApp.csproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\RMApp\\RMApp\\RMApp.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Source\\Repos\\RMApp\\RMApp\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\RMApp\\RMApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
